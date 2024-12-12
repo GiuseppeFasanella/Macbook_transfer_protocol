@@ -3,10 +3,11 @@ Starter pack when you init a new Macbook PC
 
 get brew (used to install package)
 ```
+brew install --cask anaconda
+## you might need to export the path: export PATH="/opt/homebrew/anaconda3/bin:$PATH"
+brew install vscodium
 brew install yt-dlp
 brew upgrade yt-dlp
-brew install --cask anaconda
-brew install vscodium
 ```
 
 
