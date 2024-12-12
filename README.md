@@ -12,5 +12,7 @@ brew install vscodium
 
 ##Things to understand
 ma il tasto destro per le opzioni
+
 perché drag and drop sull'HD non funziona?
+
 e per gli schermi? (io ne ho 2)
