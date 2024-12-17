@@ -8,6 +8,10 @@ brew install --cask anaconda
 brew install vscodium
 brew install yt-dlp
 brew upgrade yt-dlp
+ffmpeg
+pdftk-java
+imagemagick
+pandoc
 ```
 
 
