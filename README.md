@@ -14,10 +14,21 @@ imagemagick
 pandoc
 ```
 
+Install dropbox-cli (utile per synchare - desynchare da terminale)
+```
+mkdir -p ~/bin
+echo 'export PATH="$HOME/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 
-##Things to understand
-ma il tasto destro per le opzioni
+curl -Lo ~/.dropbox-cli "https://www.dropbox.com/download?dl=packages/dropbox.py"
+chmod +x ~/.dropbox-cli
+mv ~/.dropbox-cli ~/bin/dropbox
 
-perché drag and drop sull'HD non funziona?
+dropbox status ## you might need to restart your pc
+```
 
-e per gli schermi? (io ne ho 2)
+
+## Things to understand
+e per gli schermi? (io ne ho 2) --> Se i 2 schermi sono entrambi sull'hub NON li usa entrambi. Soluzione: uno schermo sull'hub e un altro pluggato nella presa HDMI del mac
+
+perché drag and drop sull'HD non funziona? --> credo sia questione di formattazione
